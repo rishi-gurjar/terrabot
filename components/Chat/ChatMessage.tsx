@@ -6,6 +6,8 @@ interface Props {
 }
 
 export const ChatMessage: FC<Props> = ({ message }) => {
+  console.log("True message" + message);
+
   return (
     <div className={`flex flex-col ${message.role === "assistant" ? "items-start" : "items-end"}`}>
       <div
@@ -17,3 +19,4 @@ export const ChatMessage: FC<Props> = ({ message }) => {
     </div>
   );
 };
+
