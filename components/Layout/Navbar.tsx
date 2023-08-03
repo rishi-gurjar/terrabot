@@ -6,11 +6,12 @@ export const Navbar: FC = () => {
       <div className="font-bold text-3xl flex items-center">
         <a
           className="ml-2 hover:opacity-50"
-          href="https://code-scaffold.vercel.app"
+          href="https://beyondterra/terra"
         >
           Terra 🌲
         </a>
       </div>
+      <p>This is an intiial prototype — links and information may be inaccurate. Please email <a href="mailto:rishi@beyondterra.org" style={{ color: 'green' }}>rishi@beyondterra.org</a> with any feedback.</p>
     </div>
   );
 };
