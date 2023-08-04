@@ -18,7 +18,7 @@ export const Navbar: FC = () => {
           Terra AI 🌲
         </a>
       </div>
-      <p>This is an intiial prototype — links and information may be inaccurate. Please email <a href="mailto:rishi@beyondterra.org" style={{ color: 'green' }}>rishi@beyondterra.org</a> with any feedback.</p>
+      <p>This is an initial prototype — links and information may be inaccurate. Please email <a href="mailto:rishi@beyondterra.org" style={{ color: 'green' }}>rishi@beyondterra.org</a> with any feedback.</p>
     </div>
   );
 };
